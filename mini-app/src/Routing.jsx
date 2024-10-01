@@ -1,18 +1,24 @@
 import App from "./App";
 
 import { createBrowserRouter } from "react-router-dom";
-import Navbar from "./features/Navbar";
 import AboutUs from "./features/AboutUs";
 import ContactUs from "./features/ContactUs";
+import Home from "./features/home";
+import Header from "./features/header";
+import Project from "./features/project";
 
 const router = createBrowserRouter([
     {
         path: '/', element: <App />,
         children: [
             {
-                path: '', element: <Navbar />,
+                path: '', element: <Header />,
+                path: 'home', element: <Home />,
                 path: 'aboutus', element: <AboutUs />,
-                path: 'contactus', element: <ContactUs />
+                path: 'project', element: <Project />,
+                path: 'contactus', element: <ContactUs />,
+
+
 
 
             }
