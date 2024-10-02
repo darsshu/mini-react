@@ -19,9 +19,17 @@ const Header = () => {
         document.body.removeChild(link)
 
     }
+
     const Home = () => {
         window.scrollTo({
             top: 0,
+            behavior: 'smooth',
+
+        })
+    }
+    const Project = () => {
+        window.scrollTo({
+            top: 1300,
             behavior: 'smooth',
 
         })
@@ -35,18 +43,12 @@ const Header = () => {
     }
     const ContactUs = () => {
         window.scrollTo({
-            top: 1000,
+            top: 1950,
             behavior: 'smooth',
 
         })
     }
-    const Project = () => {
-        window.scrollTo({
-            top: 1300,
-            behavior: 'smooth',
 
-        })
-    }
     window.onbeforeunload = () => {
         window.scrollTo(0, 0);
 
@@ -65,7 +67,7 @@ const Header = () => {
 
     return (
         <>
-            <div className=' bg-black bg-opacity-30 p-4 fixed w-full' id='header'>
+            <div className=' bg-black   p-4 border-b border-green-400 fixed w-full' id='header'>
                 <div className='flex justify-around'>
                     <div className='content-center'>
 
@@ -98,7 +100,7 @@ const Header = () => {
                             </button>
                         </div>
                         <div className=' '>
-                            <button onClick={handleClick} className="block px-6 py-2 ml-20  mt-2 mb-2 text-xl hover:bg-yellow-300 bg-yellow-200 rounded-2xl border-solid font-bold border-white text-blue-400">
+                            <button onClick={handleClick} className="block px-6 py-2 ml-20 hover:underline mt-2 mb-2 text-xl hover:bg-black hover:text-white bg-white transition-all duration-500 rounded-2xl border-solid font-bold  text-black">
                                 Resume
                             </button>
                         </div>

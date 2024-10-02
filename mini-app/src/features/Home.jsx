@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import AboutUs from './AboutUs'
 
 
 const Home = () => {
@@ -18,6 +19,15 @@ const Home = () => {
         link.click()
         document.body.removeChild(link)
 
+
+
+    }
+    const ContactUs = () => {
+        window.scrollTo({
+            top: 1950,
+            behavior: 'smooth',
+
+        })
     }
     return (<>
         <div>
@@ -27,8 +37,8 @@ const Home = () => {
                     <h1 className='text-white block px-6 py-2   mt-2 mb-2 font-bold text-4xl'>Darshan Chhatrola</h1>
                     <p className='font-bold block px-6 py-2   mt-2 mb-2 text-2xl text-green-500'>React-JS Devloper</p>
 
-                    <button onClick={handleClick} className="font-bold border-solid rounded-xl transition-all duration-1000 hover:text-yellow-500 bg-gray-700 hover:bg-black  h-12 w-52 hover:scale-125 mt-8 mb-2 text-2xl text-white ">
-                        Contact
+                    <button onClick={ContactUs} className="font-bold border-solid rounded-xl transition-all duration-1000 hover:text-yellow-500 bg-gray-700 hover:bg-black  h-12 w-52 hover:scale-125 mt-8 mb-2 text-2xl text-white ">
+                        Contact Me
                     </button>
                     <div className=' flex space-x-8 ml-24 mt-5 size-1/2 ' id='contact-icon'>
                         <Link target='_blank' to={'https://wa.me/8200505891'} className='' id=''>

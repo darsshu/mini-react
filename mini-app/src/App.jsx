@@ -2,19 +2,41 @@
 
 
 import { Outlet, Router } from 'react-router-dom'
-import Navbar from './features/Navbar'
 import AboutUs from './features/AboutUs'
 import Home from './features/home'
 import Header from './features/header'
 import ContactUs from './features/ContactUs'
-import Project from './features/project'
+import Project from './features/Project'
+import HTML from '/src/assets/HTML.png'
+import CSS from '/src/assets/CSS.png'
+import JS from '/src/assets/JAVASCRIPT.png'
+import './App.css'
+import Animation from './features/Animation'
+import { ToastContainer } from "react-toastify"
+
 
 function App() {
 
 
+
   return (
     <>
-      <div className='bg-slate-800'>
+
+      <div className='  bg-black '>
+        <ToastContainer
+          position="bottom-left"
+          autoClose={2000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"
+
+        />
+
         <Header />
         <Home />
         <AboutUs />
@@ -23,6 +45,8 @@ function App() {
 
         <Outlet />
       </div>
+
+
 
 
     </>
