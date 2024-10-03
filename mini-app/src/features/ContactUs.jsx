@@ -9,7 +9,6 @@ const ContactUs = () => {
         if (datasubmit) {
 
 
-
             toast.success("Submit Successfully")
             e.preventDefault()
             document.getElementById('name').value = ''
