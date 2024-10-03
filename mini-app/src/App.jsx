@@ -7,11 +7,8 @@ import Home from './features/home'
 import Header from './features/header'
 import ContactUs from './features/ContactUs'
 import Project from './features/Project'
-import HTML from '/src/assets/HTML.png'
-import CSS from '/src/assets/CSS.png'
-import JS from '/src/assets/JAVASCRIPT.png'
+
 import './App.css'
-import Animation from './features/Animation'
 import { ToastContainer } from "react-toastify"
 import 'react-toastify/dist/ReactToastify.css';
 

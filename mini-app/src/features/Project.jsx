@@ -1,13 +1,19 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import HTML from '/src/assets/HTML.png'
+import REACT from '/src/assets/REACT.png'
+import CSS from '/src/assets/CSS.png'
+import JS from '/src/assets/JS.png'
+import TC from '/src/assets/TC.png'
+import VITE from '/src/assets/VITE.png'
 
 const Project = () => {
 
     return (
         <>
             <div className=' mt-10 h-screen'>
-                <div className='flex justify-around '>
+                <div className='flex justify-around mb-20'>
                     <div className='border-solid border-green-500 border-2 rounded-md hover:scale-110 shadow-green-400 max-w-sm bg-transparent hover:bg-black transition-all duration-500 cursor-pointer hover:shadow-2xl hover:shadow-green-300'>
                         <div>
                             <h1 className='text-white text-2xl text-center font-serif border-b-4 border-green-400  pt-3 pb-3'>
@@ -57,6 +63,14 @@ const Project = () => {
                     </div> */}
 
 
+                </div>
+                <div className='  flex justify-evenly '>
+                    <img className='w-24  h-28 ' src={HTML} alt="" />
+                    <img className='w-24  h-28 ' src={CSS} alt="" />
+                    <img className='w-24  h-28 ' src={JS} alt="" />
+                    <img className='w-24  h-28 ' src={VITE} alt="" />
+                    <img className='w-24  h-28 ' src={REACT} alt="" />
+                    <img className='w-36  h-28 ' src={TC} alt="" />
                 </div>
 
             </div>
