@@ -30,8 +30,8 @@ const Home = () => {
         })
     }
     return (<>
-        <div>
-            <div className='flex justify-center pt-20 min-h-screen ' id='home'>
+        <div className='justify-around flex' >
+            <div className='flex pt-20 min-h-screen ' id='home'>
                 <div className='text-center mt-28' id='home-contant'>
                     <p className='text-white block px-6 py-2   mt-2 mb-2 font-thin'>Hello I am</p>
                     <h1 className='text-white block px-6 py-2   mt-2 mb-2 font-bold text-4xl'>Darshan Chhatrola</h1>
@@ -61,6 +61,32 @@ const Home = () => {
 
 
             </div>
+            <div className=' justify-start pt-20 min-h-screen ' id='home'>
+                <div className=' mt-28 ' id='home-contant'>
+                    <h1 className='text-yellow-200 text-3xl border-b-2 border-yellow-200 pb-1 font-bold'>EDUCATION</h1>
+                    <div className=' mt-4 space-y-10'>
+                        <p className='text-xl mb-2 text-green-300 font-extralight'>
+                            <b className='border-b-2 border-sky-300 font-extrabold text-2xl'>B-Tech </b> <br /> Computer Engineering from Gandhinagar University
+                        </p>
+                        <p className='text-xl mb-2 text-green-300 font-extralight'>
+                            <b className='border-b-2 border-sky-300 font-extrabold text-2xl'>11-12(SCIENCE) </b> <br /> Elite International School-( Morbi )
+                        </p>
+                        <p className='text-xl mb-2 text-green-300 font-extralight'>
+                            <b className='border-b-2 border-sky-300 font-extrabold text-2xl'>10th </b> <br />Sarvopari School ( Morbi )
+                        </p>
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
 
         </div>
     </>
