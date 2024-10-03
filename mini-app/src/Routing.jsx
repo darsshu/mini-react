@@ -14,24 +14,12 @@ const router = createBrowserRouter([
 
         children: [
             {
-
-
                 path: '', element: <Header />,
                 path: 'home', element: <Home />,
                 path: 'aboutus', element: <AboutUs />,
                 path: 'project', element: <Project />,
                 path: 'contactus', element: <ContactUs />,
                 path: 'Animation', element: <Animation />,
-
-
-
-
-
-
-
-
-
-
 
             }
         ]

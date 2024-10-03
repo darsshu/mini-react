@@ -1,13 +1,28 @@
 import React from 'react'
+import { Navigate } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 const ContactUs = () => {
 
 
-    const datasubmit = () => toast("Wow so easy!");
+    const datasubmit = (e) => {
+        if (datasubmit) {
+
+            toast.success("Submit Successfully")
+            e.preventDefault()
+            navigator('/')
+
+        }
+
+
+
+
+
+    }
     return (
         <>
             <div className='h-screen '>
-                <form action="">
+                <form action="" >
                     <div className='text-center mb-3'>
                         <input className='h-10 bg-transparent border-solid font-mono text-green-500 border-green-400 rounded-md border-2 w-1/2' type="NAME" placeholder='NAME' required />
                     </div>

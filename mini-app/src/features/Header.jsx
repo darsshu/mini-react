@@ -81,7 +81,7 @@ const Header = () => {
                         <div className=''>
 
                             <button onClick={Home} className="block px-4 py-2 hover:underline font-semibold hover:text-yellow-300 mt-2 mb-2  transition-all duration-1000 text-blue-500 text-xl data-[focus]:bg-gray-100">
-                                Home
+                                Dashboad
                             </button>
                         </div>
                         <div className=' '>
@@ -90,15 +90,16 @@ const Header = () => {
                             </button>
                         </div>
                         <div className=' '>
-                            <button onClick={ContactUs} className="block px-4 py-2 hover:underline font-semibold hover:text-yellow-300 mt-2 mb-2 transition-all duration-1000  text-blue-500 text-xl data-[focus]:bg-gray-100">
-                                Contach Us
-                            </button>
-                        </div>
-                        <div className=' '>
                             <button onClick={Project} className="block px-4 py-2 hover:underline font-semibold hover:text-yellow-300 mt-2 mb-2  transition-all duration-1000 text-blue-500 text-xl data-[focus]:bg-gray-100">
                                 Project
                             </button>
                         </div>
+                        <div className=' '>
+                            <button onClick={ContactUs} className="block px-4 py-2 hover:underline font-semibold hover:text-yellow-300 mt-2 mb-2 transition-all duration-1000  text-blue-500 text-xl data-[focus]:bg-gray-100">
+                                Contact Us
+                            </button>
+                        </div>
+
                         <div className=' '>
                             <button onClick={handleClick} className="block px-6 py-2 ml-20 hover:underline mt-2 mb-2 text-xl hover:bg-black hover:text-white bg-white transition-all duration-500 rounded-2xl border-solid font-bold  text-black">
                                 Resume

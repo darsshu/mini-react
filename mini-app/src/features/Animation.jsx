@@ -5,12 +5,7 @@ const Animation = () => {
     return (
         <>
             <div className='background'>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <h1>ok</h1>
 
             </div>
 

@@ -13,6 +13,7 @@ import JS from '/src/assets/JAVASCRIPT.png'
 import './App.css'
 import Animation from './features/Animation'
 import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -34,7 +35,6 @@ function App() {
           draggable
           pauseOnHover
           theme="dark"
-
         />
 
         <Header />
