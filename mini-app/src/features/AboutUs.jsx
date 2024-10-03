@@ -18,7 +18,9 @@ const AboutUs = () => {
                     <div className=' w-2/4  me-28'>
                         <h1 className='font-serif text-6xl -mt-40 text-start border-b-4 border-sky-400 text-yellow-200'>Chhatrola Darshan</h1>
                         <p className='font-sans text-xl mt-2 text-blue-500'>I am React frontend devloper  </p>
-                        <p className='font-sans  text-2xl text-start mt-2 text-yellow-200'>I am from Ahemdabad .My Education is B-Tech Computer Engineering from Gandhinagar Institute of Technology .</p>
+                        <p className='font-sans  text-2xl text-start mt-2 text-yellow-200'>I am from Ahemdabad .My Education is B-Tech Computer Engineering from Gandhinagar Institute of Technology .
+
+                        </p>
 
                     </div>
                 </div>
