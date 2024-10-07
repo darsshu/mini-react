@@ -11,7 +11,7 @@ const ThemeBtn = () => {
                         checked={themeMode == "dark"} />
                     <div className="block bg-green-400 w-10 h-6 rounded-full"></div>
                     <div className={`absolute left-1 top-1 bg-white w-4 h-4 rounded-full
-                  transition ${themeMode == "dark" ? "transform translate-x-full duration-1000" : " duration-1000"}    
+                  transition ${themeMode == "dark" ? "transform translate-x-full duration-500" : " duration-500"}    
                   
                   `}>
 

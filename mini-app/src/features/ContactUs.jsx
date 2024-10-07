@@ -41,7 +41,7 @@ const ContactUs = () => {
                         <textarea id="description" className=' bg-transparent border-solid text-2xl font-mono text-green-500 border-green-400 rounded-lg border-2 w-1/2 h-60' autoComplete='off' placeholder='Enter Your Dipscription:' required minLength={30} name="" ></textarea>
                     </div>
                     <div className='text-center'>
-                        <button type='submit' className=' font-sans  border-2  border-green-400 hover:bg-green-400 hover:border-black hover:shadow-lg rounded-lg h-10 w-20 transition-all duration-500 hover:scale-110 hover:shadow-green-300 text-white'>SUBMIT</button>
+                        <button type='submit' className=' font-sans  border-2  border-green-400 hover:bg-green-400 hover:border-black hover:shadow-lg rounded-lg h-10 w-20 transition-all duration-500 hover:scale-110 hover:shadow-green-300 '>SUBMIT</button>
 
 
                     </div>
