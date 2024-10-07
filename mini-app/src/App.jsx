@@ -20,7 +20,7 @@ function App() {
   return (
     <>
 
-      <div className='  bg-black '>
+      <div className=' '>
         <ToastContainer
           position="bottom-left"
           autoClose={2000}

@@ -14,9 +14,9 @@ const Project = () => {
         <>
             <div className=' mt-10 h-screen'>
                 <div className='flex justify-around mb-20'>
-                    <div className='border-solid border-green-500 border-2 rounded-md hover:scale-110 shadow-green-400 max-w-sm bg-transparent hover:bg-black transition-all duration-500 cursor-pointer hover:shadow-2xl hover:shadow-green-300'>
+                    <div className='border-solid border-green-500 border-2 rounded-md hover:scale-110 shadow-green-400 max-w-sm bg-transparent  transition-all duration-500 cursor-pointer hover:shadow-2xl hover:shadow-green-300'>
                         <div>
-                            <h1 className='text-white text-2xl text-center font-serif border-b-4 border-green-400  pt-3 pb-3'>
+                            <h1 className='text-sky-400 text-2xl text-center font-serif border-b-4 border-green-400  pt-3 pb-3'>
                                 Project
                             </h1>
                         </div>

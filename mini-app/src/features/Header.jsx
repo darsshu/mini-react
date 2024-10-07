@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ContactUs from './ContactUs'
+import ThemeBtn from './ThemeBtn'
 
 
 const Header = () => {
@@ -69,8 +70,8 @@ const Header = () => {
 
     return (
         <>
-            <div className=' bg-black   p-4 border-b border-green-400 fixed w-full' id='header'>
-                <div className='flex justify-around'>
+            <div className='  backdrop-blur-sm  p-4 border-b-2 border-yellow-300 fixed w-full' id='header'>
+                <div className='flex justify-between'>
                     <div className='content-center'>
 
                         <Link to={''} className='text-orange-400 text-4xl font-serif'>
@@ -78,7 +79,14 @@ const Header = () => {
                         </Link>
 
                     </div>
+
+
+
+
                     <div className='flex '>
+                        <div className='content-center me-4'>
+                            <ThemeBtn />
+                        </div>
 
                         <div className=''>
 
@@ -116,7 +124,7 @@ const Header = () => {
 
 
 
-            </div>
+            </div >
         </>
     )
 }
