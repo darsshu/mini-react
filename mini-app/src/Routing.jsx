@@ -4,7 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import AboutUs from "./features/AboutUs";
 import ContactUs from "./features/ContactUs";
 import Home from "./features/home";
-import Header from "./features/header";
+import Header from "./features/Header";
 import Project from "./features/Project";
 import Animation from "./features/Animation";
 import ThemeContext from "./features/ThemeContext";

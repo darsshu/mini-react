@@ -4,7 +4,7 @@
 import { Outlet, Router } from 'react-router-dom'
 import AboutUs from './features/AboutUs'
 import Home from './features/home'
-import Header from './features/header'
+import Header from './features/Header'
 import ContactUs from './features/ContactUs'
 import Project from './features/Project'
 
