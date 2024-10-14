@@ -34,7 +34,7 @@ const Home = () => {
         <div className='justify-around flex' >
             <div className='flex pt-20 min-h-screen ' id='home'>
                 <div className='text-center mt-28' id='home-contant'>
-                    <p className=' block px-6 py-2   mt-2 mb-2 font-thin'>Hello I am</p>
+                    <p className=' block px-6 py-2 text-xl   mt-2 mb-2 font-thin'>Hello I am</p>
                     <h1 className=' block px-6 py-2   mt-2 mb-2 font-bold text-4xl'>Darshan Chhatrola</h1>
                     <p className='font-bold block px-6 py-2   mt-2 mb-2 text-2xl text-green-500'>React-JS Devloper</p>
 
@@ -85,10 +85,16 @@ const Home = () => {
                 </div>
                 <hr />
                 <div className='mt-4'>
-                    <h1 className='text-2xl text-center font-bold '> Skillset</h1>
-
-
+                    <h1 className='text-2xl text-center font-bold  mb-5'> Skillset</h1>
+                    <hr />
+                    <div className='flex justify-around mt-5 mb-5'>
+                        <p>JAVASCRIPT</p>
+                        <p>REACT</p>
+                        <p>REDUX</p>
+                        <p>HTML-CSS</p>
+                    </div>
                 </div>
+
 
 
             </div>
@@ -96,6 +102,7 @@ const Home = () => {
 
 
         </div>
+
     </>
     )
 }
