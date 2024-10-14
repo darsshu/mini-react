@@ -9,7 +9,7 @@ const ThemeContext = ({ children }) => {
     return (
         <Theme.Provider value={{ themeMode, toggleTheme }}>
             <div className={`${themeMode == "dark" ? "bg-black text-white" :
-                "bg-white text-black"} min-h-screen transition-all duration-300`}>
+                "bg-gray-600 text-black"} min-h-screen transition-all duration-300`}>
                 {children}
             </div>
 

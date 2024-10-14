@@ -63,7 +63,7 @@ const Home = () => {
 
             </div>
             <div className=' justify-start pt-20 min-h-screen ' id='home'>
-                <div className=' mt-28 ' id='home-contant'>
+                <div className=' mt-28 mb-4' id='home-contant'>
                     <h1 className='text-orange-400 text-3xl border-b-2 border-orange-400 pb-1 font-bold'>EDUCATION</h1>
                     <div className=' mt-4 space-y-10'>
                         <p className='text-xl mb-2 text-sky-400 font-extralight'>
@@ -80,6 +80,12 @@ const Home = () => {
 
 
 
+
+
+                </div>
+                <hr />
+                <div className='mt-4'>
+                    <h1 className='text-2xl text-center font-bold '> Skillset</h1>
 
 
                 </div>
