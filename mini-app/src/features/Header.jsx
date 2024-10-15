@@ -70,7 +70,7 @@ const Header = () => {
 
     return (
         <>
-            <div className='  backdrop-blur-md  p-4 border-b-2 border-blue-600 fixed w-full' id='header'>
+            <div className=' z-10 backdrop-blur-md  p-4 border-b-2 border-blue-600 fixed w-full' id='header'>
                 <div className='flex justify-between'>
                     <div className='content-center'>
 

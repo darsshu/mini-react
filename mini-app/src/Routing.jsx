@@ -11,7 +11,7 @@ import ThemeContext from "./features/ThemeContext";
 import ThemeBtn from "./features/ThemeBtn";
 const router = createBrowserRouter([
     {
-        path: '/', element: <ThemeContext> <App /> </ThemeContext>,
+        path: '/', element: <ThemeContext> <App /></ThemeContext>,
 
         children: [
             {
